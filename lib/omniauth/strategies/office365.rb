@@ -5,7 +5,7 @@ module OmniAuth
     # Authentication strategy for connecting with the Office365 API.
     class Office365 < OmniAuth::Strategies::OAuth2
 
-      option :name, :microsoft_graph_auth
+      option :name, :office365
 
       option :client_options, {
         site:          'https://login.microsoftonline.com',
